@@ -9,7 +9,7 @@ html, body{
     height: 98%;
     display: flex;
     justify-content: center;
-    font-family: 'Chilanka', handwriting;
+    font-family: 'ABeeZee', sans-serif;
     font-size: 40px;
     background-color: var(--first-color);
 
@@ -24,7 +24,6 @@ html, body{
 }
 
 #number{
-    font-family: 'Chilanka', handwriting;
     font-size: 100px;
     color: var(--second-color);
 }
