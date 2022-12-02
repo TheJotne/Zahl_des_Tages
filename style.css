@@ -1,0 +1,44 @@
+:root {
+    --first-color: #ee9b00;
+    --second-color: #0a6491;
+  }
+  
+
+html, body{
+    width: 98%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Chilanka', handwriting;
+    font-size: 40px;
+    background-color: var(--first-color);
+
+}
+.mainContent{
+    width: fit-content;
+    
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+#number{
+    font-family: 'Chilanka', handwriting;
+    font-size: 100px;
+    color: var(--second-color);
+}
+
+.buttonMain{
+    display: block;
+    margin: auto;
+    color: var(--first-color);
+    background-color: var(--second-color);
+    
+    border: none;
+    border-radius: 62px;
+    padding-top: 0.4rem,0.5rem;
+    padding: 15px 30px;
+    font-size: x-large;
+font-weight: bold;
+}
